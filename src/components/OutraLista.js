@@ -6,7 +6,7 @@ function OutraLista({itens}){
                 itens.map((item, index) => (
                     <p key={index}>{item}</p>
                 ))) : (
-                    <p>Não há itens na lista</p>
+                    <p>Não há itens na lista</p> 
                 )
             }
         </>
