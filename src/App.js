@@ -4,12 +4,10 @@ import Form from './components/Form';
 
 function App() {
 
-  const nome = "Maria"
   return (
     <div className="App">
       <p>Testando Eventos</p>
-      <Evento numero={1}/>
-      <Evento numero={2}/>
+      <Evento/>
       <Form/>
     </div>
   );
